@@ -1,0 +1,23 @@
+v 3
+d 'SRCTAG': attach source-provenance metadata to Stata variables via variable characteristics
+d
+d srctag writes standard source-metadata characteristics (src_agency, src_dataset,
+d src_url, src_vintage, src_category) and arbitrary key/value tags onto Stata
+d variables, then prints profile cards for inspection. Companion to srcfind.
+d
+d KW: variable characteristics
+d KW: provenance
+d KW: metadata
+d KW: reproducibility
+d KW: data documentation
+d
+d Requires: Stata version 16
+d
+d Distribution-Date: 20260619
+d
+d Author: Eric Booth, Texas 2036
+d Support: email eric.booth@texas2036.org
+d
+f srctag.ado
+f srctag.sthlp
+f README.md

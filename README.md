@@ -8,7 +8,30 @@ The companion command [`srcfind`](../srcfind-stata-public) searches those charac
 
 ## Installation
 
-Copy `srctag.ado` and `srctag.sthlp` somewhere on your Stata `adopath`, or add this folder temporarily:
+### Install from GitHub
+
+From Stata, install directly from this repo:
+
+```stata
+net install srctag, from("https://raw.githubusercontent.com/texas-2036/srctag-stata-public/main") replace
+```
+
+Install the companion package the same way:
+
+```stata
+net install srcfind, from("https://raw.githubusercontent.com/texas-2036/srcfind-stata-public/main") replace
+```
+
+Then confirm:
+
+```stata
+which srctag
+help srctag
+```
+
+### Local install
+
+Alternatively, copy `srctag.ado` and `srctag.sthlp` somewhere on your Stata `adopath`, or add this folder temporarily:
 
 ```stata
 adopath ++ "/path/to/srctag-stata-public"
@@ -116,4 +139,6 @@ srcfind src_agency BEA
 
 - `srctag.ado`: Stata command.
 - `srctag.sthlp`: Stata help file.
+- `srctag.pkg`: Stata package manifest for `net install`.
+- `stata.toc`: net-install table of contents.
 - `README.md`: GitHub-facing documentation.
