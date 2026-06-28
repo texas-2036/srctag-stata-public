@@ -2,12 +2,12 @@
 
 `srctag` attaches source-provenance metadata to Stata variables using Stata variable characteristics. It is useful for wide analytic files where variables come from many agencies, datasets, releases, or vintages.
 
-The companion command [`srcfind`](https://github.com/ericbooth/srcfind-stata) searches those characteristics later.
+The companion command [`srcfind`](https://github.com/ericabooth/srcfind-stata) searches those characteristics later.
 
 ## Installation
 
 ```stata
-net install srctag, from("https://raw.githubusercontent.com/ericbooth/srctag-stata/master/") replace
+net install srctag, from("https://raw.githubusercontent.com/ericabooth/srctag-stata/master/") replace
 which srctag
 help srctag
 ```
@@ -15,7 +15,7 @@ help srctag
 Install the companion package the same way:
 
 ```stata
-net install srcfind, from("https://raw.githubusercontent.com/ericbooth/srcfind-stata/master/") replace
+net install srcfind, from("https://raw.githubusercontent.com/ericabooth/srcfind-stata/master/") replace
 ```
 
 ## Syntax
