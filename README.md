@@ -1,47 +1,21 @@
 # srctag
 
-Author: Eric Booth, Sr. Researcher, Texas 2036.org
-
 `srctag` attaches source-provenance metadata to Stata variables using Stata variable characteristics. It is useful for wide analytic files where variables come from many agencies, datasets, releases, or vintages.
 
-The companion command [`srcfind`](../srcfind-stata-public) searches those characteristics later.
+The companion command [`srcfind`](https://github.com/ericbooth/srcfind-stata) searches those characteristics later.
 
 ## Installation
 
-### Install from GitHub
-
-From Stata, install directly from this repo:
-
 ```stata
-net install srctag, from("https://raw.githubusercontent.com/texas-2036/srctag-stata-public/main") replace
+net install srctag, from("https://raw.githubusercontent.com/ericbooth/srctag-stata/master/") replace
+which srctag
+help srctag
 ```
 
 Install the companion package the same way:
 
 ```stata
-net install srcfind, from("https://raw.githubusercontent.com/texas-2036/srcfind-stata-public/main") replace
-```
-
-Then confirm:
-
-```stata
-which srctag
-help srctag
-```
-
-### Local install
-
-Alternatively, copy `srctag.ado` and `srctag.sthlp` somewhere on your Stata `adopath`, or add this folder temporarily:
-
-```stata
-adopath ++ "/path/to/srctag-stata-public"
-```
-
-If using the companion package too:
-
-```stata
-adopath ++ "/path/to/srctag-stata-public"
-adopath ++ "/path/to/srcfind-stata-public"
+net install srcfind, from("https://raw.githubusercontent.com/ericbooth/srcfind-stata/master/") replace
 ```
 
 ## Syntax
@@ -142,3 +116,7 @@ srcfind src_agency BEA
 - `srctag.pkg`: Stata package manifest for `net install`.
 - `stata.toc`: net-install table of contents.
 - `README.md`: GitHub-facing documentation.
+
+## Author
+
+Eric A. Booth, Sr Researcher, Texas2036.org (eric.a.booth@gmail.com).

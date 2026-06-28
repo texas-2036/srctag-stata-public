@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.1.0 19jun2026 Author: Eric Booth, Sr. Researcher, Texas 2036.org}{...}
+{* *! version 1.1.0 19jun2026 Author: Eric A. Booth, Sr Researcher, Texas2036.org}{...}
 {vieweralsosee "srcfind" "help srcfind"}{...}
 {vieweralsosee "char" "help char"}{...}
 {viewerjumpto "Syntax" "srctag##syntax"}{...}
@@ -183,5 +183,5 @@ Show the raw characteristics directly:
 
 {pstd}
 Eric Booth{break}
-Sr. Researcher, Texas 2036.org
+Sr Researcher, Texas2036.org (eric.a.booth@gmail.com)
 {p_end}
