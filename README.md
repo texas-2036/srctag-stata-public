@@ -1,5 +1,17 @@
 # srctag
 
+> [!NOTE]
+> **A newer, merged release of srctag + srcfind lives at
+> [ericabooth/srctag-stata-public](https://github.com/ericabooth/srctag-stata-public)**
+> (v2.0.0, Booth & Teas; SSC submission in progress as `ssc install srctag`).
+> It keeps this repo's structured `src_*` schema and subcommands, adds an
+> overwrite guard, stored results, a dataset-level source manifest, a
+> warehouse folder scan, tagging audits, and `sign`/`verify` staleness
+> checks -- and it reads files tagged by this version without changes.
+> This repo is kept for reference and is no longer updated.
+
+
+
 `srctag` attaches source-provenance metadata to Stata variables using Stata variable characteristics. It is useful for wide analytic files where variables come from many agencies, datasets, releases, or vintages.
 
 The companion command [`srcfind`](https://github.com/ericabooth/srcfind-stata) searches those characteristics later.
